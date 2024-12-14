@@ -64,7 +64,6 @@ async def StartHandler(msg: Message, bot: Bot):
             await msg.answer(text="Выброс закончился")
             writeLogs("Выброс закончился")
         await asyncio.sleep(1)
-        writeLogs("...")
 
 
 async def start():
